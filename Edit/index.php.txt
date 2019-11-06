@@ -1,0 +1,9 @@
+1. User thse java script where we want to place the Editor:
+
+<head>
+  <script type="text/javascript" src="editor/ed.js"></script>
+</head>
+
+2. where is the content there we will use:
+
+<script>edToolbar('video_desc'); </script> 

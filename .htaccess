@@ -1,0 +1,7 @@
+#Redirection code starts
+
+RewriteEngine On
+RewriteCond%{HTTPS} off
+RewriteRule ^(.*)$https://%{HTTP_HOST}%{REQUEST_URL}[L,R=200]
+
+#Redirection code Ends
